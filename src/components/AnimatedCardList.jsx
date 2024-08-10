@@ -21,13 +21,13 @@ const AnimatedCardList = () => {
                 title={"Universitas Gunadarma"}
                 subtitle={"Informatics Engineering"}
                 desc={"Agustus 2018 - Agustus 2022"}
-                img={"../src/img/LOGO UNIV GUNDAR-min.png"}
+                img={"./src/img/LOGO UNIV GUNDAR-min.png"}
               />
               <Experience
                 title={"SMA Bakti Idhata"}
                 subtitle={"Nature Science Studies"}
                 desc={"2015 - 2018"}
-                img={"../src/img/logo-bi.jpg"}
+                img={"./src/img/logo-bi.jpg"}
               />
               {/* </AnimatedList> */}
             </div>
@@ -41,13 +41,13 @@ const AnimatedCardList = () => {
                 title={"Tiket.com"}
                 subtitle={"Product Designer - 3D Illustrator"}
                 desc={"Agustus 2021 - Februari 2022"}
-                img={"../src/img/1_yctF4evMrTgmduK06dTIxQ.jpg"}
+                img={"./src/img/1_yctF4evMrTgmduK06dTIxQ.jpg"}
               />
               <Experience
                 title={"Mastersystem Infotama"}
                 subtitle={"PHP Developer Fullstack"}
                 desc={"Agustus 2023 - Present"}
-                img={"../src/img/PT-Mastersystem-Infotama-Tbk.webp"}
+                img={"./src/img/PT-Mastersystem-Infotama-Tbk.webp"}
               />
               {/* </AnimatedList> */}
             </div>
@@ -61,13 +61,13 @@ const AnimatedCardList = () => {
             title={"SMA Bakti Idhata"}
             subtitle={"Nature Science Studies"}
             desc={"2015 - 2018"}
-            img={"../src/img/logo-bi.jpg"}
+            img={"./src/img/logo-bi.jpg"}
           />
           <Experience
             title={"Universitas Gunadarma"}
             subtitle={"Informatics Engineering"}
             desc={"Agustus 2018 - Agustus 2022"}
-            img={"../src/img/LOGO UNIV GUNDAR-min.png"}
+            img={"./src/img/LOGO UNIV GUNDAR-min.png"}
           />
         {/* </AnimatedList> */}
         <p className="mx-4 text-left">Experience</p>
@@ -76,13 +76,13 @@ const AnimatedCardList = () => {
             title={"Tiket.com"}
             subtitle={"Product Designer - 3D Illustrator"}
             desc={"Agustus 2021 - Februari 2022"}
-            img={"../src/img/1_yctF4evMrTgmduK06dTIxQ.jpg"}
+            img={"./src/img/1_yctF4evMrTgmduK06dTIxQ.jpg"}
           />
           <Experience
             title={"Mastersystem Infotama"}
             subtitle={"PHP Developer Fullstack"}
             desc={"Agustus 2023 - Present"}
-            img={"../src/img/PT-Mastersystem-Infotama-Tbk.webp"}
+            img={"./src/img/PT-Mastersystem-Infotama-Tbk.webp"}
           />
         {/* </AnimatedList> */}
       </div>

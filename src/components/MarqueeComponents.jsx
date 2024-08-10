@@ -22,7 +22,7 @@ const MarqueeComponents = () => {
           title={"Movie App!"}
           text={"Front End - Website Pencarian Film"}
           tools={"Tools: React JS, Axios"}
-          img={"/src/img/Film.png"}
+          img={"./src/img/Film.png"}
           href={"https://pencarian-film.vercel.app/"}
           loading={loading}
         />
@@ -31,7 +31,7 @@ const MarqueeComponents = () => {
           title={"Furniture App!"}
           text={" Front End - Website Pembelian Furniture"}
           tools={" Tools: React JS, Axios"}
-          img={"/src/img/Furniture.png"}
+          img={"./src/img/Furniture.png"}
           href={"https://furnitureweb.vercel.app/"}
           loading={loading}
         />
@@ -40,7 +40,7 @@ const MarqueeComponents = () => {
           title={"Job Search App!"}
           text={"Front End - Website Pencarian Kerja"}
           tools={"Tools: React JS, Axios"}
-          img={"/src/img/Kerja.png"}
+          img={"./src/img/Kerja.png"}
           href={"https://job-search-delta.vercel.app/"}
           loading={loading}
         />
@@ -51,7 +51,7 @@ const MarqueeComponents = () => {
           title={"Pokemon App!"}
           text={"Front End - Website Pokemon"}
           tools={"Tools: React JS, Axios"}
-          img={"/src/img/pokemon.jpg"}
+          img={"./src/img/pokemon.jpg"}
           href={"https://pokemon-fe-nine.vercel.app/"}
           loading={loading}
         />
@@ -60,7 +60,7 @@ const MarqueeComponents = () => {
           title={"NY Times App!"}
           text={" Front End - Website Berita New York"}
           tools={"Tools: React JS, Axios"}
-          img={"/src/img/nytimes.png"}
+          img={"./src/img/nytimes.png"}
           href={"https://ny-times-fe.vercel.app/"}
           loading={loading}
         />
@@ -69,7 +69,7 @@ const MarqueeComponents = () => {
           title={"Car Rental App!"}
           text={"Front End - Website Car Rental"}
           tools={"Tools: React JS, Axios"}
-          img={"/src/img/CarRental.png"}
+          img={"./src/img/CarRental.png"}
           href={"https://carrental-project.vercel.app/"}
           loading={loading}
         />
