@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import GridPattern from "./components/Grid"; // Import GridPattern
@@ -13,8 +13,41 @@ import Experience from "./components/Experience";
 import { AnimatedList } from "./components/AnimatedList";
 import AnimatedCardList from "./components/AnimatedCardList";
 import DockComponents from "./components/DockComponents";
+import AnimatedCircularProgressBar from "./components/LoadingPage"; // Import the loading component
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  const [progress, setProgress] = useState(0);
+
+  useEffect(() => {
+    if (loading) {
+      let progressValue = 0;
+      const interval = setInterval(() => {
+        progressValue += 1;
+        setProgress(progressValue);
+        if (progressValue >= 100) {
+          clearInterval(interval);
+          setLoading(false);
+        }
+      },); // Adjust the interval as needed
+    }
+  }, [loading]);
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center h-screen bg-white">
+        <AnimatedCircularProgressBar
+          max={100}
+          value={progress}
+          min={0}
+          gaugePrimaryColor="#e0e0e0"
+          gaugeSecondaryColor="#e9e9e9"
+          className="text-center"
+        />
+      </div>
+    );
+  }
+
   return (
     <div className="relative bg-white poppins-light text-center">
       {/* Main Content */}
@@ -27,7 +60,7 @@ function App() {
       {/* Wrapper with GridPattern */}
       <div className="relative mt-[-100px] py-5 text-center justify-center align-center">
         {/* GridPattern component in the background */}
-          <Hero />
+        <Hero />
         <div className="relative">
           <GridPattern
             width={40}
