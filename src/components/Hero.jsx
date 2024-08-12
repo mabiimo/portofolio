@@ -59,7 +59,7 @@ const Hero = () => {
             href={pdf}
             target="_blank"
           >
-            Get CV
+           Resume
           </a>
         </div>
       </div>
