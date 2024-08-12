@@ -29,7 +29,7 @@ function App() {
           clearInterval(interval);
           setLoading(false);
         }
-      },); // Adjust the interval as needed
+      }, 30); // Adjust the interval as needed
     }
   }, [loading]);
 
@@ -57,9 +57,7 @@ function App() {
         <div className="navbar-container px-10 py-14 fixed bottom-0 left-0 w-full z-50 bg-gradient-to-t from-gray-100 to-transparent" />
       </div>
       
-      {/* Wrapper with GridPattern */}
       <div className="relative mt-[-100px] py-5 text-center justify-center align-center">
-        {/* GridPattern component in the background */}
         <Hero />
         <div className="relative">
           <GridPattern
@@ -109,10 +107,8 @@ function App() {
             maxSpeed={0.01}
           />
           <MarqueeComponents />
-          {/* <Tab /> */}
         </div>
         <DockComponents />
-        {/* <Footer /> */}
       </div>
     </div>
   );

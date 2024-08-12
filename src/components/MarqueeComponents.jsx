@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Marquee from "./Marquee.tsx";
 import Card from "./Card.jsx";
+import Kerja from '../img/Kerja.png'
+import Film from '../img/Film.png'
+import Furniture from '../img/Furniture.png'
+import Pokemon from '../img/pokemon.jpg'
+import nytimes from '../img/nytimes.png'
+import car from '../img/CarRental.png'
 
 const MarqueeComponents = () => {
   const [loading, setLoading] = useState(true);
@@ -22,7 +28,7 @@ const MarqueeComponents = () => {
           title={"Movie App!"}
           text={"Front End - Website Pencarian Film"}
           tools={"Tools: React JS, Axios"}
-          img={"./src/img/Film.png"}
+          img={Film}
           href={"https://pencarian-film.vercel.app/"}
           loading={loading}
         />
@@ -31,7 +37,7 @@ const MarqueeComponents = () => {
           title={"Furniture App!"}
           text={" Front End - Website Pembelian Furniture"}
           tools={" Tools: React JS, Axios"}
-          img={"./src/img/Furniture.png"}
+          img={Furniture}
           href={"https://furnitureweb.vercel.app/"}
           loading={loading}
         />
@@ -40,7 +46,7 @@ const MarqueeComponents = () => {
           title={"Job Search App!"}
           text={"Front End - Website Pencarian Kerja"}
           tools={"Tools: React JS, Axios"}
-          img={"./src/img/Kerja.png"}
+          img={Kerja}
           href={"https://job-search-delta.vercel.app/"}
           loading={loading}
         />
@@ -51,7 +57,7 @@ const MarqueeComponents = () => {
           title={"Pokemon App!"}
           text={"Front End - Website Pokemon"}
           tools={"Tools: React JS, Axios"}
-          img={"./src/img/pokemon.jpg"}
+          img={Pokemon}
           href={"https://pokemon-fe-nine.vercel.app/"}
           loading={loading}
         />
@@ -60,7 +66,7 @@ const MarqueeComponents = () => {
           title={"NY Times App!"}
           text={" Front End - Website Berita New York"}
           tools={"Tools: React JS, Axios"}
-          img={"./src/img/nytimes.png"}
+          img={nytimes}
           href={"https://ny-times-fe.vercel.app/"}
           loading={loading}
         />
@@ -69,7 +75,7 @@ const MarqueeComponents = () => {
           title={"Car Rental App!"}
           text={"Front End - Website Car Rental"}
           tools={"Tools: React JS, Axios"}
-          img={"./src/img/CarRental.png"}
+          img={car}
           href={"https://carrental-project.vercel.app/"}
           loading={loading}
         />
