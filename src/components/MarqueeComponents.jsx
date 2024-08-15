@@ -29,7 +29,7 @@ const MarqueeComponents = () => {
           text={"Front End - Website Pencarian Film"}
           tools={"Tools: React JS, Axios"}
           img={Film}
-          href={"https://pencarian-film.vercel.app/"}
+          href={"https://tmdb-movie-mabiimo.vercel.app/"}
           loading={loading}
         />
 
