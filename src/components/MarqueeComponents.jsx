@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Marquee from "./Marquee.tsx";
 import Card from "./Card.jsx";
 import Kerja from '../img/Kerja.png'
-import Film from '../img/Film.png'
+import Film from '../img/tmdb-film.png'
 import Furniture from '../img/Furniture.png'
 import Pokemon from '../img/pokemon.jpg'
 import nytimes from '../img/nytimes.png'
@@ -27,7 +27,7 @@ const MarqueeComponents = () => {
         <Card
           title={"Movie App!"}
           text={"Front End - Website Pencarian Film"}
-          tools={"Tools: React JS, Axios"}
+          tools={"Tools: React JS, Axios, Tailwind CSS, Daisy UI"}
           img={Film}
           href={"https://tmdb-movie-mabiimo.vercel.app/"}
           loading={loading}
